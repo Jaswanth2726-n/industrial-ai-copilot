@@ -1,0 +1,38 @@
+﻿# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+dist/
+coverage/
+
+# ESP-IDF generated files
+**/build/
+**/managed_components/
+
+# Temporary files
+*.log
+*.tmp
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local databases
+*.sqlite3
+*.db
+
+# ESP-IDF generated inspection output
+embedded-simulation/esp32-motor/-Host
